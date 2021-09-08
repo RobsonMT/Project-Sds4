@@ -1,10 +1,17 @@
-import React from 'react';
+import DataTable from 'assets/css/components/DataTable';
+import Footer from 'assets/css/components/Footer';
+import NavBar from 'assets/css/components/NavBar';
 
 function App() {
   return (
-    <div>
-      <h1 className="text-primary">Olá mundo!</h1>
-    </div>
+    <>
+      <NavBar/>
+      <div className="container">
+        <h1 className="text-primary">Olá mundo!</h1>
+        <DataTable/>
+      </div>
+      <Footer/>
+    </>
   );
 }
 
