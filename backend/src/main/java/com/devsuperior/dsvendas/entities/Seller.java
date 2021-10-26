@@ -1,8 +1,6 @@
 package com.devsuperior.dsvendas.entities;
-
 import java.util.ArrayList;
 import java.util.List;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -49,8 +47,5 @@ public class Seller {
 	public List<Sale> getSales() {
 		return sales;
 	}
-	
-	
-	
 	
 }

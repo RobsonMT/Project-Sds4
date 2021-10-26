@@ -1,7 +1,5 @@
 package com.devsuperior.dsvendas.dto;
-
 import java.time.LocalDate;
-
 import com.devsuperior.dsvendas.entities.Sale;
 
 public class SaleDTO {
@@ -82,7 +80,5 @@ public class SaleDTO {
 	public void setSeller(SellerDTO seller) {
 		this.seller = seller;
 	}
-	
-	
 	
 }
